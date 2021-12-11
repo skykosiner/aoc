@@ -67,9 +67,6 @@ class Solve {
                 aim -= Number(this.array[a].split(" ")[1]);
             };
         };
-        console.log("H", horizontal);
-        console.log("D", depth);
-        console.log("A", aim);
         return horizontal * depth;
     };
 
